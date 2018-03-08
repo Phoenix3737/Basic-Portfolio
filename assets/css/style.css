@@ -1,18 +1,46 @@
 #blueText {
+    position:fixed;
+    /* left: 10px; */
+    top: 100px;
+    text-align: center;
     color:#4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 } 
 .greyText {
+    float: right;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 } 
 #header {
+    float: left;
     color: #ffffff;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-} 
-
-body {
-    background: (../images/dust_scratches.png);
 
 }
+
+#pic {
+    position: fixed;
+    top: 200px;
+}
+
+#p_position {
+    position:fixed;
+    top: 400px;
+}
+
+/* #fixed {
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+} */
+
+/* body {
+    background: assets/images/dust_scratches.png;
+}
+ */
+
+ /* #left {
+     float: left;
+ } */
