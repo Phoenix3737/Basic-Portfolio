@@ -2,31 +2,48 @@
     position:fixed;
     /* left: 10px; */
     top: 100px;
+    left: 200px;
     text-align: center;
     color:#4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 } 
 .greyText {
-    float: right;
+    width: 960px;
+    /* float: right; */
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #ffffff;
+    position:fixed;
+    top: 400px;
+    left: 200px;
 } 
 #header {
     float: left;
     color: #ffffff;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    position:fixed;
+    left: 200px;
 
 }
 
 #pic {
     position: fixed;
     top: 200px;
+    left: 200px;
 }
 
-#p_position {
+/* #p_position {
     position:fixed;
     top: 400px;
+} */
+
+.links {
+    /* float: right; */
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position:fixed;
+    right: 200px;
 }
 
 /* #fixed {
@@ -36,10 +53,15 @@
     text-align: center;
 } */
 
-/* body {
-    background: assets/images/dust_scratches.png;
+body {
+    background-image: url("../images/dust_scratches.png");
 }
- */
+
+/* .box {
+    width: 960px;
+    color: #ffffff
+} */
+
 
  /* #left {
      float: left;
