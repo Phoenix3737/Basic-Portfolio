@@ -6,6 +6,11 @@
     text-align: center;
     color:#4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff;
+    padding-right: 801px;
+    padding-bottom: 19px;
+    border-bottom: 2px solid #777777;
+    /* line-height: 80px; */
 } 
 .greyText {
     width: 960px;
@@ -14,7 +19,7 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: #ffffff;
     position:fixed;
-    top: 400px;
+    top: 200px;
     left: 200px;
 } 
 #header {
@@ -29,11 +34,18 @@
 
 }
 
-#pic {
-    position: fixed;
+img {
+    float: left;
+    /* position: fixed; */
     top: 200px;
     left: 200px;
 }
+
+/* #pic {
+    position: fixed;
+    top: 200px;
+    left: 200px;
+} */
 
 /* #p_position {
     position:fixed;
@@ -61,7 +73,7 @@
     margin-bottom: 25px;
     width: 1331px;
     height: 80px;
-    border-bottom: 1px solid #777777;
+    border-bottom: 2px solid #777777;
     line-height: 80px;
     
     
